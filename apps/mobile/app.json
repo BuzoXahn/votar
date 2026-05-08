@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "VotAR",
+    "slug": "votar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "mx.votar.app"
+    },
+    "android": {
+      "package": "mx.votar.app"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "votar-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter @votar/api dev",
+    "build:api": "pnpm --filter @votar/api build",
+    "test:api": "pnpm --filter @votar/api test",
+    "lint": "pnpm -r lint",
+    "db:migrate": "pnpm --filter @votar/api db:migrate",
+    "db:seed": "pnpm --filter @votar/api db:seed",
+    "db:studio": "pnpm --filter @votar/api db:studio",
+    "db:generate": "pnpm --filter @votar/api db:generate"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
