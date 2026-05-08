@@ -1,26 +1,34 @@
-# Dependencias
+# ── Dependencias ────────────────────────────────
 node_modules/
 .pnpm-store/
+.npm/
 
-# Build
+# ── Build ────────────────────────────────────────
 dist/
 build/
 .expo/
-
-# Entorno
-.env
-.env.local
-
-# Logs
-*.log
-expo-logs.txt
-
-# OS
-.DS_Store
-Thumbs.db
-
-# TypeScript
 *.tsbuildinfo
 
-# Prisma
+# ── Entorno ──────────────────────────────────────
+.env
+.env.local
+.env.*.local
+apps/api/.env
+
+# ── Logs ─────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+expo-logs.txt
+
+# ── OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Prisma ───────────────────────────────────────
 apps/api/prisma/migrations/
